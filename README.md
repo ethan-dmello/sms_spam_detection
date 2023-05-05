@@ -1,1 +1,3 @@
-# sms_spam_detection
+# SMS Spam Detection Program
+
+This code is a Python script that builds and trains a deep learning model for spam detection in SMS messages using a bidirectional LSTM (Long Short-Term Memory) network. The model classifies messages as "ham" (non-spam) or "spam" based on their text content. For the basis of this project, the program relies on Python libraries such as TensorFlow, Keras, pandas, and scikit-learn to process the data, build the deep learning model, and evaluate its performance. The SMS message dataset is loaded directly from a local file rather than being fetched from an external API.
